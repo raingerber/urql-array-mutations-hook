@@ -76,8 +76,8 @@ const [array, add, remove, query] = useArrayMutations(options)
 
 - **[0]** - the current array, made by combining any graphql responses
 
-- **[1]** - return value from `useMutation(...options.add)`
+- **[1]** - return value from `useMutation(options.add)`
 
-- **[2]** - return value from `useMutation(...options.remove)`
+- **[2]** - return value from `useMutation(options.remove)`
 
-- **[3]** - return value from `useQuery(...options.query)`
+- **[3]** - return value from `useQuery(options.query)`
