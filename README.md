@@ -80,4 +80,4 @@ const [array, add, remove, query] = useArrayMutations(options)
 
 - **[2]** - return value from `useMutation(options.remove)`
 
-- **[3]** - return value from `useQuery(options.query)`
+- **[3]** - return value from `useQuery(options.get)`
